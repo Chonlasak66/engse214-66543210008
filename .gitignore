@@ -1,0 +1,30 @@
+# Node modules (ถ้ามีการใช้ json-server หรือ npm package)
+node_modules/
+
+# ไฟล์ระบบ
+.DS_Store
+Thumbs.db
+
+# ไฟล์ log และชั่วคราว
+*.log
+*.tmp
+*.swp
+
+# IDE ต่างๆ
+.vscode/
+.idea/
+
+# ระบบปฏิบัติการ
+.env
+*.bak
+*.orig
+
+# ไฟล์ของ json-server
+db.json
+
+# Live Server settings (ถ้ามี)
+.liveserver.json
+
+# อื่นๆ (ถ้ามี)
+dist/
+build/
